@@ -114,6 +114,7 @@ li a:hover{
     color: #774231;
     padding-left: 113px;
     padding-right: 114px;
+    padding-bottom: 400px;
 }
 
 
@@ -136,4 +137,137 @@ li a:hover{
     background-size: cover;
     position: relative;
 
+}
+
+
+/* ----about   me--- */
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -8rem;
+    padding-top: 100px;
+}
+.about .hero-pic{
+    width: 339px;
+  height: 330px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: 15px solid #444;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.5); */
+}
+.hero-pic img{
+ height: 100%;  
+ width: 100%;
+ transition: 0.5s;
+}
+.hero-pic img:hover{
+    transform: scale(1.2);
+}
+.about-text{
+    max-width: 488px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text h5{
+    text-align: center;
+  color: #c7900f;
+  font-size: 16px;
+  
+}
+.about-text h5 span{
+    color: #1a1918;
+    font-size: 20;
+  }
+
+.about-text h1{
+    padding-top: 5px;
+    color: rgb(145, 74, 27);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.about-text p{
+    padding-top: 8px;
+    color: rgb(145, 74, 27);
+    font-size: 20;
+
+}
+.btn-group{
+    margin: 45px 0;
+}
+
+.btn-group .btn{
+    border-color: #302201;
+    color: #000000;
+    background-color:#a4590f;
+    padding: 8px 25px;
+    margin: 5px 0  ;
+    border-radius: 30px;
+    border: px solid #a4590f;
+    box-shadow: 0 10px 10px -8px rgba(0 0 0 / 78%);
+    text-decoration: none;
+}
+.btn.active{
+    border-color: #000000;
+}
+
+.social{
+    padding-top: 25px;
+    text-align: center;
+}
+.about-text .social i{
+    color: #c7900f;
+    font-size: 18px;
+    margin-right: 20px;
+    transition: 0.5s;
+    
+}
+
+.btn:hover{
+    background-color: #eee;
+    transition: 1s;
+}
+
+
+
+
+@media(max-width:768px){
+    .about{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .about-text{
+        text-align: center;
+        
+    }
+
+    .about-text h5{
+        padding-top: 49px;
+        
+        font-size: 10px;
+    }
+    .about-text h1{
+        padding-top: 21px;
+        font-size: 30px;
+      
+    }
+    .about-text p{
+        padding-top: 5px;
+        font-size: 9px;
+    }
+    .btn-group{
+        padding-left: 29%;
+        font-size: 12px;
+        display: none;
+        
+    }
+    .social{
+        text-align: center;
+        font-size: 0;
+        padding-top: 12px;
+
+    }
 }
