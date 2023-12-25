@@ -111,7 +111,7 @@ li a:hover{
     font-size: 45px;
     font-weight: 200;
     text-align: center;
-    color: #774231;
+    color: #000000;
     padding-left: 113px;
     padding-right: 114px;
     padding-bottom: 400px;
@@ -129,16 +129,15 @@ li a:hover{
     }
 }
 
-.home_main{
+.home_main {
     min-height: 100vh;
     width: 100%;
     background-image: url(images/home.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
-
 }
-
 
 /* ----about   me--- */
 
