@@ -21,6 +21,7 @@ html, body {
 /*.......................... home style..........................  */
 
 .navbar{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -132,12 +133,18 @@ li a:hover{
 .home_main {
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/home.jpg);
+    background-image: url(images/home.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
+/* the bg image isnot fixed yet */
+
+
+
+
 
 /* ----about   me--- */
 
@@ -270,3 +277,10 @@ li a:hover{
 
     }
 }
+
+
+
+
+
+
+
